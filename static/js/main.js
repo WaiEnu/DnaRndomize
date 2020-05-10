@@ -1,12 +1,9 @@
-$('#length').on('blur', function(){
-  $('#locate').attr({'max': $('#length').val()});
-})
-$('#locate').attr({'max': $('#length').val()});
 
 const vm = new Vue({
   el: '#app',
   delimiters: ["[[", "]]"],
   data: {
+    align:'100',
     activePageName: 'graph',
     icons: [
       {
