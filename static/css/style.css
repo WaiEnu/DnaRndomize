@@ -6,6 +6,12 @@
 html,body{
   height:100%;
 }
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .formset h4{
   width: 100%;
   margin: 0 auto;
