@@ -3,7 +3,7 @@ const vm = new Vue({
   el: '#app',
   delimiters: ["[[", "]]"],
   data: {
-    align:'100',
+    alength:'100',
     activePageName: 'graph',
     icons: [
       {
